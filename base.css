@@ -93,6 +93,38 @@ img{
   font-size: 3rem;
 }
 
+.ttl-3{
+  position: relative;
+  color: white;
+  background-color: #21aa8d;
+  height: 150px;
+}
+.ttl-3-wrapper{
+  width: 530px;
+  padding-top: 40px;
+  margin: auto;
+  line-height: 2rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.ttl-3:after {
+  position: absolute;
+  content: '';
+  border-top: 20px solid #21aa8d;
+  border-right: 20px solid transparent;
+  border-left: 20px solid transparent;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.ttl-3-wrapper >h2 >span{
+  color: #ffe200;
+  font-size: 3rem;
+}
+.ttl-3-wrapper >h2 >small{
+  font-size: 1.5rem;
+}
+
 
 
 /* ヘッダーに関する記述 */
@@ -292,4 +324,63 @@ img{
   text-align: center;
   padding: 20px 0;
   color: #21aa8d;
+}
+
+
+/* 「りのべえの、耐震補強術」に関する記述 */
+.reinforcement-contents-wrapper{
+  background-image: url("img/2download.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 0;
+}
+
+.reinforcement-contents{
+  margin: 0 auto;
+  width: 950px;
+  justify-content: space-between;
+}
+.reinforcement-contents-inner{
+  width: 230px;
+}
+.reinforcement-contents-img-wrapper{
+  width: 100%;
+}
+.reinforcement-contents-ttl{
+  background-color: #21aa8d;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 22px;
+  color: white;
+}
+.reinforcement-contents-mes{
+  color: white;
+  font-size: 14px;
+  text-shadow: 0 0 3px #444;
+}
+
+
+.content{
+  width: 950px;
+  margin: 50px auto;
+  background-color: white;
+}
+.content-inner{
+  display: flex;
+  padding: 30px 30px;
+}
+.content-img{
+  width: 500px;
+  padding: 0 30px 0 0;
+}
+.content-article{
+
+}
+.content-ttl{
+  color: #ed8467;
+  font-size: 25px;
+  text-decoration: underline;
+}
+.content-article >p, .content-article >small{
+  padding: 5px 0;
 }
